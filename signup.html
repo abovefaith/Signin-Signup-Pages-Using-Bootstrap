@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container-fluid vh-100 d-flex">
+        <div class="d-flex flex-column justify-content-center align-items-start col-lg-6 p-5 bg-white">
+            <div class="mb-4">
+                <img src="./logo-black.webp" alt="logo" class="img-fluid" style="max-width: 150px;">
+            </div>
+            <h2 class="fw-bold">KENWIDE Institute</h2>
+            <h3 class="text-decoration-underline text-start">CREATE ACCOUNT</h3>            
+            <form class="w-100 mt-4">
+                <div class="mb-3 position-relative">
+                    <input type="text" class="form-control border-0 border-bottom rounded-0 p-2" id="email" placeholder="E-Mail" required>
+                </div>
+                <div class="mb-3 position-relative">
+                    <input type="text" class="form-control border-0 border-bottom rounded-0 p-2" id="username" placeholder="Username" required>                    
+                </div>
+                <div class="mb-3 position-relative">
+                    <input type="password" class="form-control border-0 border-bottom rounded-0 p-2" id="password" placeholder="Password" required>                
+                </div>
+                <p class="text-muted">We will send you an E-Mail to verify your account.</p>
+                <div>
+                    <button type="submit" class="btn btn-warning text-white fw-bold px-4 py-2">CREATE ACCOUNT</button>
+                </div>
+                <p class="mt-3">
+                    Already have an account? <a href="#" class="text-dark text-decoration-underline">Sign in</a>
+                </p>
+            </form>
+        </div>
+        <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-center">
+            <img src="./signup.webp" alt="Student holding books" class="img-fluid w-100 h-100 object-fit-cover">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
